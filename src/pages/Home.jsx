@@ -4,12 +4,11 @@ import "aos/dist/aos.css";
 
 import bgg from "../assets/bgg.jpg";
 import IndustriesServed from "../components/IndustriesServed";
-import Services from "../components/services";
 import Features from "../components/Features";
 import About from "../components/about";
 import WhyChooseUs from "../components/WhyChooseUs";
-import Mission from "../components/Mission";
 import Department from "../components/Department";
+import Services from "../components/Services";
 
 function Home() {
   // Initialize AOS when the component mounts
@@ -109,7 +108,7 @@ function Home() {
       </section>
 
       <section id="Services" className="py-16 bg-white dark:bg-gray-900 text-center">
-        <Services />
+        <Services/>
       </section>
 
       <section id="IndustriesServed" className="min-h-screen bg-gray-100 dark:bg-gray-900">
